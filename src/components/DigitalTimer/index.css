@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.background-container {
+  background: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.time-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 400px;
+  width: 450px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+.in-container {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+}
+.showTime {
+  color: #00d9f5;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.timeDetails {
+  color: #0f172a;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+}
+.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.image {
+  height: 25px;
+  width: 25px;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+.label {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.limit {
+  text-align: center;
+  font-family: Roboto;
+  color: #0f172a;
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn {
+  border-width: 0px;
+  font-size: 18px;
+  font-family: Roboto;
+  background-color: transparent;
+  font-size: 28px;
+}
+.minutes {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #0f172a;
+}
+.min-container {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+  border-width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 {
+  background-color: transparent;
+  border-width: 0px;
+}
